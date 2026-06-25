@@ -3582,13 +3582,8 @@ body.page-inner.page-inner--light-hero .page-hero--light {
 .contact-grid {
   display: grid;
   gap: 2.5rem;
-}
-
-@media (min-width: 768px) {
-  .contact-grid {
-    grid-template-columns: 1fr 1fr;
-    align-items: start;
-  }
+  max-width: 560px;
+  margin-inline: auto;
 }
 
 .contact-card {
