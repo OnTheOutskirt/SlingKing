@@ -1015,19 +1015,19 @@ ${shopAccessoryCard({
 
     <section class="page-body">
       <div class="container prose">
-        <p>Welcome to Slingking®. By using this website and purchasing our products, you agree to these Terms of Service operated by TKO Inc. / 4D Innovations ("we," "us," or "our").</p>
+        <p>Welcome to Slingking®. By using this website and purchasing our products, you agree to these Terms of Service operated by 4D Innovations ("we," "us," or "our").</p>
         <h2>Use of Website</h2>
         <p>You may use this site for lawful purposes related to learning about and purchasing Slingking products. You agree not to misuse the site or interfere with its operation.</p>
         <h2>Products &amp; Orders</h2>
         <p>Product descriptions, images, and pricing are subject to change. Orders placed via email are confirmed by our team. We reserve the right to refuse or cancel orders at our discretion.</p>
         <h2>Intellectual Property</h2>
-        <p>Slingking®, Fill Anywhere™, and related marks, product names, and content on this site are owned by TKO Inc. / 4D Innovations. Unauthorized use is prohibited.</p>
+        <p>Slingking®, Fill Anywhere™, and related marks, product names, and content on this site are owned by 4D Innovations. Unauthorized use is prohibited.</p>
         <h2>Limitation of Liability</h2>
         <p>Our products are intended for supervised recreational use. We are not liable for injury or damage resulting from misuse or failure to follow <a href="safety-guidelines.html">safety guidelines</a>. To the fullest extent permitted by law, our liability is limited to the purchase price of the product.</p>
         <h2>Governing Law</h2>
         <p>These terms are governed by the laws of the State of Texas.</p>
         <h2>Contact</h2>
-        <p>Questions about these terms? <a href="contact.html">Contact us</a> at <a href="mailto:info@slingking.com">info@slingking.com</a>.</p>
+        <p>Questions about these terms? <a href="contact.html">Contact us</a>.</p>
       </div>
     </section>`
   ),
@@ -1046,7 +1046,7 @@ ${shopAccessoryCard({
 
     <section class="page-body">
       <div class="container prose">
-        <p>TKO Inc. / 4D Innovations ("Slingking," "we," "us") respects your privacy. This policy describes how we collect, use, and protect information when you visit slingking.com or contact us.</p>
+        <p>4D Innovations ("Slingking," "we," "us") respects your privacy. This policy describes how we collect, use, and protect information when you visit slingking.com or contact us.</p>
         <h2>Information We Collect</h2>
         <ul>
           <li><strong>Contact information</strong> — name and email when you subscribe to updates, contact us, or place an order.</li>
@@ -1065,9 +1065,9 @@ ${shopAccessoryCard({
         <h2>Cookies</h2>
         <p>Our site may use cookies and similar technologies for basic functionality and analytics. You can control cookies through your browser settings.</p>
         <h2>Your Rights</h2>
-        <p>You may request access to, correction of, or deletion of your personal information by contacting <a href="mailto:info@slingking.com">info@slingking.com</a>.</p>
+        <p>You may request access to, correction of, or deletion of your personal information through our <a href="contact.html">contact page</a>.</p>
         <h2>Contact</h2>
-        <p>Privacy questions? <a href="contact.html">Contact us</a> or email <a href="mailto:info@slingking.com">info@slingking.com</a>.</p>
+        <p>Privacy questions? <a href="contact.html">Contact us</a>.</p>
       </div>
     </section>`,
     { lightHero: true }
