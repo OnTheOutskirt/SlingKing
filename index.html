@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Slingking® water balloon slingshots & launchers — the original since 1988. Launch water balloons up to 300 yards. Just add water!">
+  <title>Slingking® — Water Balloon Slingshots & Launchers | Just Add Water!</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="splash-pending">
+
+  <!-- ========== SPLASH SCREEN ========== -->
+  <div class="splash-screen" id="splash-screen" role="presentation" aria-hidden="false">
+    <div class="splash-flight" aria-hidden="true">
+      <div class="splash-balloon">
+        <div class="splash-balloon-body">
+          <span class="splash-balloon-shine"></span>
+          <span class="splash-balloon-water"></span>
+        </div>
+        <span class="splash-balloon-knot"></span>
+      </div>
+    </div>
+
+    <div class="splash-impact" aria-hidden="true">
+      <div class="splash-flash"></div>
+      <div class="splash-bloom"></div>
+      <div class="splash-ring splash-ring--1"></div>
+      <div class="splash-ring splash-ring--2"></div>
+      <div class="splash-ring splash-ring--3"></div>
+      <div class="splash-spray">
+        <span class="splash-drop" style="--i:0"></span>
+        <span class="splash-drop" style="--i:1"></span>
+        <span class="splash-drop" style="--i:2"></span>
+        <span class="splash-drop" style="--i:3"></span>
+        <span class="splash-drop" style="--i:4"></span>
+        <span class="splash-drop" style="--i:5"></span>
+        <span class="splash-drop" style="--i:6"></span>
+        <span class="splash-drop" style="--i:7"></span>
+        <span class="splash-drop" style="--i:8"></span>
+        <span class="splash-drop" style="--i:9"></span>
+        <span class="splash-drop" style="--i:10"></span>
+        <span class="splash-drop" style="--i:11"></span>
+        <span class="splash-drop" style="--i:12"></span>
+        <span class="splash-drop" style="--i:13"></span>
+        <span class="splash-drop" style="--i:14"></span>
+        <span class="splash-drop" style="--i:15"></span>
+        <span class="splash-drop" style="--i:16"></span>
+        <span class="splash-drop" style="--i:17"></span>
+        <span class="splash-drop" style="--i:18"></span>
+        <span class="splash-drop" style="--i:19"></span>
+        <span class="splash-drop" style="--i:20"></span>
+        <span class="splash-drop" style="--i:21"></span>
+        <span class="splash-drop" style="--i:22"></span>
+        <span class="splash-drop" style="--i:23"></span>
+        <span class="splash-blob" style="--i:0"></span>
+        <span class="splash-blob" style="--i:1"></span>
+        <span class="splash-blob" style="--i:2"></span>
+        <span class="splash-blob" style="--i:3"></span>
+        <span class="splash-blob" style="--i:4"></span>
+        <span class="splash-blob" style="--i:5"></span>
+        <span class="splash-blob" style="--i:6"></span>
+        <span class="splash-blob" style="--i:7"></span>
+      </div>
+      <div class="splash-sheet"></div>
+    </div>
+
+    <div class="splash-reveal">
+      <img src="assets/logo.webp" alt="" class="splash-logo" width="200" height="56">
+      <p class="splash-tagline">Just Add <em>Water!</em></p>
+    </div>
+  </div>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Slingking home">
+        <img src="assets/logo.webp" alt="Slingking">
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <a href="launcher.html">Launcher</a>
+        <a href="cannon.html">Cannon</a>
+        <a href="beast.html">Beast</a>
+        <a href="accessories.html">Accessories</a>
+        <a href="about.html">About</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="shop.html" class="btn btn-primary header-shop-btn">Shop Now</a>
+        <button class="icon-btn cart-btn" id="cart-toggle" aria-label="Open cart">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"/></svg>
+          <span class="cart-count" id="cart-count" hidden>0</span>
+        </button>
+        <button class="icon-btn menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-overlay" aria-hidden="true"></div>
+  <nav class="nav-mobile" aria-label="Mobile navigation">
+    <ul>
+      <li><a href="launcher.html">Launcher</a></li>
+      <li><a href="cannon.html">Cannon</a></li>
+      <li><a href="beast.html">Beast</a></li>
+      <li><a href="accessories.html">Accessories</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-splash"></div>
+        <div class="hero-splash"></div>
+        <div class="hero-splash"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span></span>
+            The Original Since 1988
+          </div>
+
+          <h1 class="display-xl">
+            Launch Farther.
+            <em>Soak Harder.</em>
+          </h1>
+
+          <p class="hero-sub">
+            Official <strong>Slingking® water balloon launchers</strong> — complete ready-to-use kits with <strong>Fill Anywhere™</strong> and biodegradable balloons included. Built for <strong>backyard battles, summer camps, and Greek Week</strong>.
+          </p>
+
+          <div class="hero-cta">
+            <a href="shop.html" class="btn btn-primary">
+              Shop Launchers
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+            </a>
+            <a href="#action" class="btn btn-secondary" style="border-color: rgba(255,255,255,0.4); color: #fff; background: rgba(255,255,255,0.1);">
+              See It In Action
+            </a>
+          </div>
+
+          <div class="hero-stats">
+          <div class="hero-stat">
+            <strong>300 YD</strong>
+            <span>Beast Range</span>
+          </div>
+            <div class="hero-stat">
+              <strong>Patented</strong>
+              <span>Fill Anywhere™</span>
+            </div>
+            <div class="hero-stat">
+              <strong>FROM $24.95</strong>
+              <span>Starter Kits</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-product-wrap">
+            <div class="hero-product-frame">
+              <div class="hero-slideshow" aria-live="polite" aria-roledescription="carousel" aria-label="Slingking launcher lineup">
+                <div class="hero-slide is-active" data-range="100 YD" data-label="Launch Range">
+                  <a href="launcher.html" class="hero-slide-link" aria-label="Shop Water Balloon Launcher">
+                    <div class="hero-slide-title-card">
+                      <span class="hero-slide-name">Water Balloon Launcher™</span>
+                    </div>
+                    <img src="assets/product-launcher.webp" alt="Slingking Water Balloon Launcher with balloons and target">
+                  </a>
+                </div>
+                <div class="hero-slide" data-range="200 YD" data-label="Cannon Range">
+                  <a href="cannon.html" class="hero-slide-link" aria-label="Shop Water Balloon Cannon">
+                    <div class="hero-slide-title-card">
+                      <span class="hero-slide-name">Water Balloon Cannon™</span>
+                    </div>
+                    <img src="assets/product-cannon.webp" alt="Slingking Water Balloon Cannon">
+                  </a>
+                </div>
+                <div class="hero-slide" data-range="300 YD" data-label="Beast Range">
+                  <a href="beast.html" class="hero-slide-link" aria-label="Shop Beast Mega Slingshot">
+                    <div class="hero-slide-title-card">
+                      <span class="hero-slide-name">Beast™ Mega Slingshot™</span>
+                    </div>
+                    <img src="assets/product-beast-mega-launcher.webp" alt="Slingking Beast Mega Slingshot with balloons and tubing">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="hero-range-badge">
+              <strong class="hero-range-value">100 YD</strong>
+              <span class="hero-range-label">Launch Range</span>
+            </div>
+            <div class="hero-slideshow-dots" role="tablist" aria-label="Choose launcher">
+              <button type="button" class="hero-dot is-active" role="tab" aria-selected="true" aria-label="Launcher, 100 yards" data-slide="0"></button>
+              <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="Cannon, 200 yards" data-slide="1"></button>
+              <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="Beast, 300 yards" data-slide="2"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TRUST BAR ========== -->
+    <div class="trust-bar">
+      <div class="container">
+        <div class="trust-item">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+          The Original Since 1988
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.745 3.745 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"/></svg>
+          Patented Fill Anywhere™
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 14.25a7.454 7.454 0 0 0 .981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 0 0 7.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 0 0 2.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 0 1 2.916.52 6.003 6.003 0 0 1-5.395 4.972m0 0a6.726 6.726 0 0 1-2.749 1.35m0 0a6.772 6.772 0 0 1-3.044 0"/></svg>
+          Trusted by Pro Teams
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h16.5c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125Z"/></svg>
+          Featured on Letterman
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== PRODUCTS ========== -->
+    <section class="products-section" id="products">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">The Lineup</span>
+          <h2 class="display-lg">Official Slingking® Launchers</h2>
+          <p>Three legendary launchers. One mission: maximum soakage. Every kit ships ready to fire — just add water.</p>
+        </div>
+
+        <div class="products-grid">
+
+          <!-- Original Launcher -->
+          <article class="product-card" id="launcher">
+            <span class="product-badge solo">The Original</span>
+            <a href="launcher.html" class="product-image-link" aria-label="View Water Balloon Launcher">
+            <div class="product-image">
+              <img src="assets/product-launcher.webp" alt="Slingking Water Balloon Launcher">
+            </div>
+            </a>
+            <div class="product-body">
+              <div class="product-range">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+                Up to 100 Yards
+              </div>
+              <h3><a href="launcher.html">Water Balloon Launcher™</a></h3>
+              <p>The original wrist-rocket slingshot. Complete kit with filler system &amp; 100 biodegradable balloons.</p>
+              <div class="product-footer">
+                <span class="product-price">$24.95</span>
+                <a href="launcher.html" class="product-link">
+                  Shop Now
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Cannon -->
+          <article class="product-card" id="cannon">
+            <span class="product-badge team">3-Man Team</span>
+            <a href="cannon.html" class="product-image-link" aria-label="View Water Balloon Cannon">
+            <div class="product-image">
+              <img src="assets/product-cannon.webp" alt="Slingking Water Balloon Cannon">
+            </div>
+            </a>
+            <div class="product-body">
+              <div class="product-range">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+                Up to 200 Yards
+              </div>
+              <h3><a href="cannon.html">Water Balloon Cannon™</a></h3>
+              <p>Heavy-duty 3-man handheld cannon. Launches 3″ balloons with serious force. Stay mobile, stay loaded.</p>
+              <div class="product-footer">
+                <span class="product-price">$39.95</span>
+                <a href="cannon.html" class="product-link">
+                  Shop Now
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Beast -->
+          <article class="product-card featured" id="beast">
+            <span class="product-badge flagship">Flagship</span>
+            <a href="beast.html" class="product-image-link" aria-label="View Beast Mega Slingshot">
+            <div class="product-image">
+              <img src="assets/product-beast-mega-launcher.webp" alt="Slingking Beast Mega Slingshot">
+            </div>
+            </a>
+            <div class="product-body">
+              <div class="product-range">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+                Up to 300 Yards
+              </div>
+              <h3><a href="beast.html">Beast™ Mega Slingshot™</a></h3>
+              <p>Triple-barrel, mountable mega slingshot. Three friends, one synchronized volley. The ultimate team weapon.</p>
+              <div class="product-footer">
+                <span class="product-price">$54.95</span>
+                <a href="beast.html" class="product-link">
+                  Shop Now
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ACTION SHOTS ========== -->
+    <section class="action-section" id="action">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">For Every Crew</span>
+          <h2 class="display-lg">Rule The Fun</h2>
+          <p>From fraternity block parties to family backyards to the field — Slingking goes wherever the battle goes.</p>
+        </div>
+
+        <div class="action-gallery">
+          <figure class="action-gallery-item portrait">
+            <img
+              src="assets/kid-with-water-balloons.webp"
+              alt="Kid with a pile of colorful water balloons at a backyard water balloon fight"
+              loading="lazy"
+            >
+            <figcaption class="action-gallery-label">Family Fun</figcaption>
+          </figure>
+
+          <figure class="action-gallery-item">
+            <img
+              src="assets/action-shot-college-water-baloon-fight.webp"
+              alt="College students using a Slingking water balloon cannon at a night block party"
+              loading="lazy"
+            >
+            <figcaption class="action-gallery-label">Greek Life</figcaption>
+          </figure>
+
+          <figure class="action-gallery-item">
+            <img
+              src="assets/slingking_action_shot_teens_water_baloon_fight.webp"
+              alt="Teens using a Slingking water balloon cannon during an outdoor water fight by a lake"
+              loading="lazy"
+            >
+            <figcaption class="action-gallery-label">Summer Camps</figcaption>
+          </figure>
+        </div>
+
+        <div class="action-section-cta">
+          <a href="shop.html" class="btn btn-primary">Shop Launchers</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FEATURES ========== -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Why Slingking</span>
+          <h2 class="display-lg">Not Your Dollar Store Slingshot</h2>
+          <p>Patented since day one. The imitators wish they had our fill-anywhere system.</p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z"/></svg>
+            </div>
+            <h3>Fill Anywhere™</h3>
+            <p>Patented collapsible bottle + cap system. Fill balloons at the park, beach, or campground — no faucet needed.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/></svg>
+            </div>
+            <h3>Patented Design</h3>
+            <p>Only available through Slingking®. Premium tubing, durable pouches, vibrant colors — not the cheap knockoffs.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 0 1-2.247 2.118H6.622a2.25 2.25 0 0 1-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z"/></svg>
+            </div>
+            <h3>Complete Kits</h3>
+            <p>Every launcher ships ready to use — launcher, filler, and biodegradable balloons included. Just add water.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 14.25a7.454 7.454 0 0 0 .981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 0 0 7.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 0 0 2.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 0 1 2.916.52 6.003 6.003 0 0 1-5.395 4.972m0 0a6.726 6.726 0 0 1-2.749 1.35m0 0a6.772 6.772 0 0 1-3.044 0"/></svg>
+            </div>
+            <h3>Proven at Scale</h3>
+            <p>Trusted by NBA, MLB &amp; NHRA venues for crowd launches. If it works for a stadium, it'll work for your block.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== AS SEEN ON ========== -->
+    <section class="as-seen-section" id="as-seen-on">
+      <div class="container">
+        <div class="as-seen-inner">
+          <div class="as-seen-copy">
+            <span class="section-label">As Seen On</span>
+            <h2 class="display-lg">The Late Show with David Letterman</h2>
+            <p>Slingking® has been making a splash on the national stage since 1988 — from late-night TV to sold-out stadiums. When David Letterman featured Slingking, America took notice.</p>
+            <a href="launcher.html" class="btn btn-primary">Get the Original</a>
+          </div>
+          <figure class="as-seen-image">
+            <img
+              src="assets/as-seen-on-david-letterman.png"
+              alt="Slingking as seen on The Late Show with David Letterman"
+              loading="lazy"
+            >
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TRUSTED BY TEAMS ========== -->
+    <section class="teams-section" id="trusted-by">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Trusted by the Pros</span>
+          <h2 class="display-lg">Used by Major Sports Venues</h2>
+          <p>Our launchers power t-shirt cannons and crowd giveaways at stadiums and events across the country.</p>
+        </div>
+
+        <div class="team-logos-wall">
+          <img src="assets/Miami_Heat_logo.webp" alt="Miami Heat">
+          <img src="assets/houston-rockets-logo-transparent.webp" alt="Houston Rockets">
+          <img src="assets/Houston-Astros-Logo.svg" alt="Houston Astros">
+          <img src="assets/Dayton_Dragons_logo.webp" alt="Dayton Dragons">
+          <img src="assets/National_Hot_Rod_Association_Logo.webp" alt="NHRA" class="logo-nhra">
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== AUDIENCE SPLIT ========== -->
+    <section class="audience" id="college">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Built For Battle</span>
+          <h2 class="display-lg">Pick Your Splash Zone</h2>
+          <p>Whether you're running a fraternity philanthropy event or a summer camp color war — we've got the firepower.</p>
+        </div>
+
+        <div class="audience-grid">
+          <article class="audience-card college">
+            <div class="audience-card-content">
+              <h3 class="display-md">College &amp; Greek Life</h3>
+              <div class="audience-tags">
+                <span>Fraternities</span>
+                <span>Sororities</span>
+                <span>Philanthropy</span>
+                <span>Spring Break</span>
+              </div>
+              <p>Turn your next charity fundraiser or Greek Week into an epic water war. The Beast Mega Slingshot handles crowds — launch from the lawn, the roof, or the pool deck.</p>
+              <a href="beast.html" class="btn btn-primary">Shop Team Launchers</a>
+            </div>
+          </article>
+
+          <article class="audience-card family" id="families">
+            <div class="audience-card-content">
+              <h3 class="display-md">Families &amp; Summer Camps</h3>
+              <div class="audience-tags">
+                <span>Backyard Battles</span>
+                <span>Church Events</span>
+                <span>Summer Camps</span>
+                <span>Block Parties</span>
+              </div>
+              <p>Safe, supervised fun for all ages. Complete ready-to-use kits with our patented fill-anywhere system — no hose needed at the park or campground.</p>
+              <a href="launcher.html" class="btn btn-water">Shop Starter Kits</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COMPARE ========== -->
+    <section class="compare-section" id="compare">
+      <div class="container">
+        <div class="section-header section-header--compact">
+          <span class="section-label">Still Deciding?</span>
+          <h2 class="display-md">Find Your Range</h2>
+          <p>Solo backyard fun or a full Greek Week assault — match the launcher to your splash zone.</p>
+        </div>
+
+        <div class="product-compare" role="region" aria-label="Compare Slingking launchers">
+          <div class="product-compare-table-wrap">
+            <table class="product-compare-table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col"><a href="launcher.html">Launcher</a></th>
+                  <th scope="col"><a href="cannon.html">Cannon</a></th>
+                  <th scope="col" class="is-featured"><a href="beast.html">Beast</a></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Range</th>
+                  <td><strong>100 yd</strong></td>
+                  <td><strong>200 yd</strong></td>
+                  <td class="is-featured"><strong>300 yd</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row">Team</th>
+                  <td>Solo</td>
+                  <td>3-man crew</td>
+                  <td class="is-featured">Mountable team</td>
+                </tr>
+                <tr>
+                  <th scope="row">Best for</th>
+                  <td>Backyards &amp; camps</td>
+                  <td>Mobile battles</td>
+                  <td class="is-featured">Greek life &amp; events</td>
+                </tr>
+                <tr class="product-compare-price-row">
+                  <th scope="row">Price</th>
+                  <td>$24.95</td>
+                  <td>$39.95</td>
+                  <td class="is-featured">$54.95</td>
+                </tr>
+                <tr class="product-compare-shop-row">
+                  <th scope="row"></th>
+                  <td>
+                    <a href="mailto:info@slingking.com?subject=Order%20Water%20Balloon%20Launcher" class="compare-shop-link">Shop Now</a>
+                  </td>
+                  <td>
+                    <a href="mailto:info@slingking.com?subject=Order%20Water%20Balloon%20Cannon" class="compare-shop-link">Shop Now</a>
+                  </td>
+                  <td class="is-featured">
+                    <a href="mailto:info@slingking.com?subject=Order%20Beast%20Mega%20Slingshot" class="compare-shop-link compare-shop-link--featured">Shop Now</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== VIDEO ========== -->
+    <section class="video-section" id="video">
+      <div class="container">
+        <div class="section-header section-header--compact">
+          <span class="section-label">Field Footage</span>
+          <h2 class="display-md">The Beast Goes to Work</h2>
+          <p>Real archive footage from overseas — used by U.S. military personnel. Watch the Beast Mega Slingshot launch a synchronized triple volley across the desert.</p>
+        </div>
+
+        <div class="video-player" id="homepage-video-player">
+          <video id="homepage-video" controls playsinline preload="metadata" poster="assets/us-army-using-sling-king.webp">
+            <source src="assets/slingking-beast-iraq-upscaled.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <button type="button" class="video-player-overlay" id="homepage-video-overlay" aria-label="Play Beast Mega Slingshot military field footage">
+            <span class="video-play-btn" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+            <span class="video-overlay-copy">
+              <strong class="video-overlay-title">Watch the Beast in Action</strong>
+              <span class="video-overlay-meta">Used by U.S. military overseas · Beast Mega Slingshot™</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ACCESSORIES ========== -->
+    <section class="accessories" id="accessories">
+      <div class="container">
+        <div class="section-header section-header--compact">
+          <span class="section-label">Gear Up</span>
+          <h2 class="display-md">Official Accessories</h2>
+          <p>Refill ammo, add targets, and keep the battle going all summer.</p>
+        </div>
+
+        <div class="accessories-grid">
+
+          <article class="accessory-card">
+            <a href="bomber-pack.html" class="accessory-card-link">
+              <div class="product-image">
+                <img src="assets/product-bomber-pack.webp" alt="Slingking Bomber-Pack water balloon refill">
+              </div>
+              <div class="product-body">
+                <h3>Bomber-Pack™</h3>
+                <p>100 biodegradable water balloons. Restock for the next round.</p>
+                <div class="product-footer">
+                  <span class="product-price accessory-price">$5</span>
+                  <span class="product-link accessory-link">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="accessory-card">
+            <a href="beast-pack.html" class="accessory-card-link">
+              <div class="product-image">
+                <img src="assets/product-beast-pack.webp" alt="Slingking Beast-Pack water balloon refill">
+              </div>
+              <div class="product-body">
+                <h3>Beast-Pack™</h3>
+                <p>150 water balloons for extended Beast Mega Slingshot battles.</p>
+                <div class="product-footer">
+                  <span class="product-price accessory-price">$7<small>$9.25</small></span>
+                  <span class="product-link accessory-link">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="accessory-card">
+            <a href="targets.html" class="accessory-card-link">
+              <div class="product-image">
+                <img src="assets/product-targets.webp" alt="Slingking Water Balloon Targets">
+              </div>
+              <div class="product-body">
+                <h3>Water Balloon Targets™</h3>
+                <p>10 official Slingking® target boards. Perfect your aim from 100 yards out.</p>
+                <div class="product-footer">
+                  <span class="product-price accessory-price">$5<small>$8</small></span>
+                  <span class="product-link accessory-link">
+                    View
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-inner">
+          <div class="about-copy">
+            <span class="section-label">Our Story</span>
+            <h2 class="display-lg">The Original Since 1988</h2>
+            <p>Slingking® started with a simple idea: water balloon fights should be epic, not exhausting. No more hours at the hose. No more cheap slingshots that snap after one afternoon. We patented the Fill Anywhere™ system and built launchers tough enough for backyards, summer camps, Greek Week, and sold-out stadiums.</p>
+
+            <a href="about.html" class="btn btn-primary">About Slingking™</a>
+          </div>
+
+          <figure class="about-image about-image--photo">
+            <img
+              src="assets/slingking-1988.webp"
+              alt="Original Slingking water balloon catapult kit from 1988 with vintage packaging on a picnic table"
+              loading="lazy"
+            >
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta-banner">
+      <div class="container">
+        <h2 class="display-lg">Ready. Aim. Splash!</h2>
+        <p>Join 35+ years of water balloon legends. Free shipping on orders over $50. The best guarantee in the business.</p>
+        <div class="cta-buttons">
+          <a href="shop.html" class="btn btn-secondary">Shop All Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== NEWSLETTER ========== -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-inner">
+          <h3>Get Splash Updates</h3>
+          <p class="text-muted">New products, summer battle tactics, and exclusive deals.</p>
+          <form class="newsletter-form" action="#" method="post">
+            <input type="email" placeholder="Enter your email" required aria-label="Email address">
+            <button type="submit" class="btn btn-water">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.webp" alt="Slingking">
+          <p>The original water balloon slingshot since 1988. Complete kits with patented Fill Anywhere™ — just add water.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/waterballoonlaunchers/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/user/slingkinglaunchers" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="shop.html">Shop All Products</a></li>
+            <li><a href="launcher.html">Original Launcher</a></li>
+            <li><a href="cannon.html">Water Balloon Cannon</a></li>
+            <li><a href="beast.html">Beast Mega Slingshot</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="shipping-info.html">Shipping Info</a></li>
+            <li><a href="returns-guarantee.html">Returns &amp; Guarantee</a></li>
+            <li><a href="safety-guidelines.html">Safety Guidelines</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Slingking</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-meta">
+          <p>&copy; 2026 TKO Inc. / 4D Innovations. All rights reserved. Katy, TX.</p>
+          <nav class="footer-legal" aria-label="Legal">
+            <a href="terms-of-service.html">Terms of Service</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+          </nav>
+        </div>
+        <div class="payment-icons">
+          <span>VISA</span>
+          <span>MC</span>
+          <span>AMEX</span>
+          <span>PAYPAL</span>
+          <span>APPLE PAY</span>
+          <span>SHOP PAY</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== CART SIDEBAR ========== -->
+  <aside class="cart-sidebar" id="cart-sidebar" aria-hidden="true">
+    <div class="cart-sidebar-backdrop" id="cart-sidebar-backdrop"></div>
+    <div class="cart-sidebar-panel" role="dialog" aria-labelledby="cart-sidebar-title">
+      <button type="button" class="cart-sidebar-close" id="cart-sidebar-close" aria-label="Close cart">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg>
+      </button>
+      <h2 class="cart-sidebar-title" id="cart-sidebar-title">Your Cart</h2>
+      <div class="cart-sidebar-body" id="cart-items-wrap">
+        <p class="cart-empty" id="cart-empty">Your cart is empty — add a launcher and let the soakage begin.</p>
+        <ul class="cart-items" id="cart-items" hidden></ul>
+      </div>
+      <div class="cart-sidebar-footer" id="cart-footer" hidden>
+        <div class="cart-subtotal-row">
+          <span>Subtotal</span>
+          <strong id="cart-subtotal">$0.00</strong>
+        </div>
+        <a href="#" class="btn btn-primary" id="cart-checkout">Checkout</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========== PROMO POPUP ========== -->
+  <div class="promo-overlay" id="promo-overlay" hidden>
+    <div class="promo-popup" role="dialog" aria-modal="true" aria-labelledby="promo-popup-title">
+      <button type="button" class="promo-close" id="promo-popup-close" aria-label="Close offer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg>
+      </button>
+
+      <div class="promo-popup-splash" aria-hidden="true"></div>
+
+      <span class="promo-popup-badge">
+        <span class="promo-pulse"></span>
+        Limited Time — Summer 2026
+      </span>
+
+      <p class="promo-popup-eyebrow">Ready. Aim. Save!</p>
+      <h2 class="promo-popup-title" id="promo-popup-title">10% Off Any Launcher</h2>
+      <p class="promo-popup-sub">The original water balloon slingshot since 1988. Save on any complete launcher kit — Launcher, Cannon, or Beast.</p>
+
+      <div class="promo-code-reveal">
+        <span class="promo-code-label">Your code</span>
+        <code class="promo-code" id="promo-code">SPLASH10</code>
+      </div>
+
+      <button type="button" class="btn btn-primary promo-claim-btn" id="promo-claim-btn">
+        Claim My 10% Off
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+      </button>
+
+      <button type="button" class="promo-dismiss" id="promo-dismiss">No thanks, I'll pay full price</button>
+    </div>
+  </div>
+
+  <button type="button" class="promo-tab" id="promo-tab" aria-label="Open 10% off offer" hidden>
+    <span class="promo-tab-chevron" aria-hidden="true">›</span>
+    <span class="promo-tab-amount">10%</span>
+    <span class="promo-tab-label">OFF</span>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

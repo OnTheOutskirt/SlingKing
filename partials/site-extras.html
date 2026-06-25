@@ -1,0 +1,53 @@
+  <!-- ========== CART SIDEBAR ========== -->
+  <aside class="cart-sidebar" id="cart-sidebar" aria-hidden="true">
+    <div class="cart-sidebar-backdrop" id="cart-sidebar-backdrop"></div>
+    <div class="cart-sidebar-panel" role="dialog" aria-labelledby="cart-sidebar-title">
+      <button type="button" class="cart-sidebar-close" id="cart-sidebar-close" aria-label="Close cart">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg>
+      </button>
+      <h2 class="cart-sidebar-title" id="cart-sidebar-title">Your Cart</h2>
+      <div class="cart-sidebar-body" id="cart-items-wrap">
+        <p class="cart-empty" id="cart-empty">Your cart is empty — add a launcher and let the soakage begin.</p>
+        <ul class="cart-items" id="cart-items" hidden></ul>
+      </div>
+      <div class="cart-sidebar-footer" id="cart-footer" hidden>
+        <div class="cart-subtotal-row">
+          <span>Subtotal</span>
+          <strong id="cart-subtotal">$0.00</strong>
+        </div>
+        <a href="#" class="btn btn-primary" id="cart-checkout">Checkout</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========== PROMO POPUP ========== -->
+  <div class="promo-overlay" id="promo-overlay" hidden>
+    <div class="promo-popup" role="dialog" aria-modal="true" aria-labelledby="promo-popup-title">
+      <button type="button" class="promo-close" id="promo-popup-close" aria-label="Close offer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg>
+      </button>
+      <div class="promo-popup-splash" aria-hidden="true"></div>
+      <span class="promo-popup-badge">
+        <span class="promo-pulse"></span>
+        Limited Time — Summer 2026
+      </span>
+      <p class="promo-popup-eyebrow">Ready. Aim. Save!</p>
+      <h2 class="promo-popup-title" id="promo-popup-title">10% Off Any Launcher</h2>
+      <p class="promo-popup-sub">The original water balloon slingshot since 1988. Save on any complete launcher kit — Launcher, Cannon, or Beast.</p>
+      <div class="promo-code-reveal">
+        <span class="promo-code-label">Your code</span>
+        <code class="promo-code" id="promo-code">SPLASH10</code>
+      </div>
+      <button type="button" class="btn btn-primary promo-claim-btn" id="promo-claim-btn">
+        Claim My 10% Off
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+      </button>
+      <button type="button" class="promo-dismiss" id="promo-dismiss">No thanks, I'll pay full price</button>
+    </div>
+  </div>
+
+  <button type="button" class="promo-tab" id="promo-tab" aria-label="Open 10% off offer" hidden>
+    <span class="promo-tab-chevron" aria-hidden="true">›</span>
+    <span class="promo-tab-amount">10%</span>
+    <span class="promo-tab-label">OFF</span>
+  </button>

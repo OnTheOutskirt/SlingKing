@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Node
+node_modules/
+
+# Third-party upscaling tool (download separately, not part of the site)
+tools/realesrgan-ncnn-vulkan/
+tools/realesrgan-ncnn-vulkan.zip
+
+# Video upscale working files (intermediate frames)
+tools/video-upscale/
