@@ -349,19 +349,19 @@ function shopAccessoryCard({ href, img, alt, name, desc, price, priceCompare, id
               <h3><a href="${href}">${name}</a></h3>
               <p>${desc}</p>
               <span class="product-price accessory-price">${priceHtml}</span>
-${shopAddForm(id, name, priceNum, img)}
+${shopAddForm(id, name, priceNum, img, 'Cart')}
             </div>
           </article>`;
 }
 
-function shopAddForm(id, name, price, image) {
+function shopAddForm(id, name, price, image, label = 'Add to Cart') {
   return `              <form class="product-add-form product-add-form--card" data-product-id="${id}" data-product-name="${name}" data-product-price="${price}" data-product-image="${image}">
                 <div class="qty-selector">
                   <button type="button" class="qty-btn qty-minus" aria-label="Decrease quantity">−</button>
                   <input type="number" class="qty-input" value="1" min="1" max="99" aria-label="Quantity">
                   <button type="button" class="qty-btn qty-plus" aria-label="Increase quantity">+</button>
                 </div>
-                <button type="submit" class="btn btn-primary product-add-btn">Add to Cart</button>
+                <button type="submit" class="btn btn-primary product-add-btn">${label}</button>
               </form>`;
 }
 
