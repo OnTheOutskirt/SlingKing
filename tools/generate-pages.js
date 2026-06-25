@@ -840,9 +840,8 @@ ${shopAccessoryCard({
     <section class="page-body page-body--alt">
       <div class="container">
         <div class="about-company-card">
-          <h2 class="display-md" style="margin-bottom:0.75rem;">4D Innovations / TKO Toyz / Skipco, Inc</h2>
+          <h2 class="display-md" style="margin-bottom:0.75rem;">4D Innovations</h2>
           <p>925 S. Mason Rd #262<br>Katy, TX 77450</p>
-          <p style="margin-top:0.75rem;"><a href="tel:2813959077">281-395-9077</a> · <a href="mailto:info@slingking.com">info@slingking.com</a></p>
           <div class="about-cta-row">
             <a href="contact.html" class="btn btn-water">Contact Us</a>
           </div>
