@@ -453,6 +453,7 @@ ${shopAccessoryCard({
     name: 'Bomber-Pack™',
     desc: '100 biodegradable water balloons. Restock for the next round.',
     price: '5',
+    priceCompare: '6.99',
     id: 'bomber-pack',
     priceNum: '5',
   })}${shopAccessoryCard({
@@ -608,6 +609,7 @@ ${shopAccessoryCard({
     name: 'Bomber-Pack™',
     intro: 'Keep the ammo flowing with 100 official Slingking® biodegradable water balloons. The perfect restock for your Water Balloon Launcher™ or Cannon — same quality balloons that ship in every complete kit.',
     price: '$5',
+    priceCompare: '$6.99',
     specs: [
       ['Quantity', '100 biodegradable water balloons'],
       ['Balloon Size', 'Standard water balloons'],
@@ -714,6 +716,7 @@ ${shopAccessoryCard({
     name: 'Bomber-Pack™',
     desc: '100 biodegradable water balloons. Restock for the next round.',
     price: '5',
+    priceCompare: '6.99',
   })}${accessoryListingCard({
     href: 'beast-pack.html',
     img: 'assets/product-beast-pack.webp',
