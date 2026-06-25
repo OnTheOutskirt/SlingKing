@@ -3516,10 +3516,6 @@ body.page-inner.page-inner--light-hero .page-hero--light {
   padding: 1.25rem;
 }
 
-.related-card--accessory .related-card-image {
-  aspect-ratio: 1 / 1;
-}
-
 .related-card-image img {
   width: 100%;
   height: 100%;

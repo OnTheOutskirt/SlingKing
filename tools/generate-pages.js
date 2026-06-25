@@ -110,7 +110,7 @@ function footer() {
 
       <div class="footer-bottom">
         <div class="footer-bottom-meta">
-          <p>&copy; 2026 4D Innovations. All rights reserved. Katy, TX.</p>
+          <p>&copy; 2026 4D Innovations. All rights reserved.</p>
           <nav class="footer-legal" aria-label="Legal">
             <a href="terms-of-service.html">Terms of Service</a>
             <a href="privacy-policy.html">Privacy Policy</a>
@@ -841,7 +841,6 @@ ${shopAccessoryCard({
       <div class="container">
         <div class="about-company-card">
           <h2 class="display-md" style="margin-bottom:0.75rem;">4D Innovations</h2>
-          <p>925 S. Mason Rd #262<br>Katy, TX 77450</p>
           <div class="about-cta-row">
             <a href="contact.html" class="btn btn-water">Contact Us</a>
           </div>
