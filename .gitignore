@@ -12,3 +12,5 @@ tools/realesrgan-ncnn-vulkan.zip
 
 # Video upscale working files (intermediate frames)
 tools/video-upscale/
+
+.vercel

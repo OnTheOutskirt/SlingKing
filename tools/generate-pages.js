@@ -77,14 +77,6 @@ function footer() {
         <div class="footer-brand">
           <img src="assets/logo.webp" alt="Slingking">
           <p>The original water balloon slingshot since 1988. Complete kits with patented Fill Anywhere™ — just add water.</p>
-          <div class="footer-social">
-            <a href="https://www.facebook.com/waterballoonlaunchers/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-            </a>
-            <a href="https://www.youtube.com/user/slingkinglaunchers" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-            </a>
-          </div>
         </div>
 
         <div class="footer-col">
@@ -802,7 +794,6 @@ ${shopAccessoryCard({
         <h2>Slingking® Hall of Fame</h2>
         <p>Join the ranks of esteemed celebrities who have earned their place in the prestigious Slingking® Hall of Fame. From national television to sold-out stadiums, Slingking has been making a splash on the national stage for over 35 years.</p>
         <div class="about-hof-tags">
-          <span>Bruce Jenner</span>
           <span>Downtown Julie Brown</span>
           <span>Joan Rivers</span>
           <span>Pat Sajak</span>
@@ -860,7 +851,7 @@ ${shopAccessoryCard({
   'contact.html': page(
     'contact.html',
     'Contact Us — Slingking®',
-    'Contact Slingking® for orders, questions, and support. Call 281-395-9077 or email info@slingking.com. Katy, TX.',
+    'Contact Slingking® for orders, questions, and support. Send us a message and our team will help. Katy, TX.',
     `    <section class="page-hero page-hero--light">
       <div class="container">
         <span class="section-label">Get In Touch</span>
@@ -872,13 +863,6 @@ ${shopAccessoryCard({
     <section class="page-body">
       <div class="container">
         <div class="contact-grid">
-          <div class="contact-card">
-            <h3>Orders &amp; Support</h3>
-            <p>Email or call us for product orders, shipping questions, or warranty support.</p>
-            <p><a href="tel:2813959077">281-395-9077</a></p>
-            <p><a href="mailto:info@slingking.com">info@slingking.com</a></p>
-            <p style="margin-top:1rem;font-size:0.875rem;color:var(--gray-500);">TKO Inc. / 4D Innovations<br>Katy, TX</p>
-          </div>
           <form class="contact-form contact-card" action="mailto:info@slingking.com" method="post" enctype="text/plain">
             <h3>Send a Message</h3>
             <label>Name<input type="text" name="name" required></label>
@@ -970,8 +954,8 @@ ${shopAccessoryCard({
           <li>Delivery times vary by location — generally 3–7 business days after shipment.</li>
           <li>Tracking information is provided when available.</li>
         </ul>
-        <h2>Order Placement</h2>
-        <p>To place an order, email <a href="mailto:info@slingking.com">info@slingking.com</a> with the product name and quantity. Our team will confirm your total including any applicable shipping.</p>
+        <h2>How to Order</h2>
+        <p>Add your launchers and accessories to the cart and check out securely online. Your order total, including any applicable shipping, is calculated at checkout before you pay.</p>
         <p>Need help? <a href="contact.html">Contact us</a>.</p>
       </div>
     </section>`,
@@ -996,19 +980,19 @@ ${shopAccessoryCard({
         <p>Slingking® is built to last. We stand behind our patented design and quality craftsmanship. If your launcher doesn't meet expectations due to a defect or workmanship issue, we'll make it right.</p>
         <h2>Returns</h2>
         <ul>
-          <li>Contact us within 30 days of delivery for return authorization.</li>
+          <li>Request a return within 30 days of delivery.</li>
           <li>Items must be in original condition with all included components.</li>
           <li>Return shipping may apply unless the return is due to our error or a defective product.</li>
         </ul>
-        <h2>Warranty Support</h2>
-        <p>For warranty claims, email <a href="mailto:info@slingking.com">info@slingking.com</a> with your order details and photos of the issue. Our team will respond with next steps.</p>
         <h2>How to Start a Return</h2>
         <ol>
-          <li>Email <a href="mailto:info@slingking.com">info@slingking.com</a> with your order information.</li>
-          <li>Receive return authorization and instructions.</li>
-          <li>Ship the item back per our guidance.</li>
-          <li>Refund or replacement processed after inspection.</li>
+          <li>Open the confirmation email from your order and select <strong>Return items</strong> to start your request online.</li>
+          <li>Choose the items you'd like to return and submit your request for review.</li>
+          <li>Once approved, you'll receive return instructions and a prepaid shipping label where applicable.</li>
+          <li>Your refund is issued to the original payment method after we receive and inspect the item.</li>
         </ol>
+        <h2>Damaged or Defective Items</h2>
+        <p>If your order arrives damaged or has a defect, start a return through your order confirmation email — or <a href="contact.html">contact us</a> with a few photos of the issue — and we'll make it right.</p>
         <p><a href="contact.html">Contact us</a> with any questions.</p>
       </div>
     </section>`,
