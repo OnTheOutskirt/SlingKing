@@ -398,8 +398,8 @@ const pages = {
               </div>
               <h3><a href="launcher.html">Water Balloon Launcher™</a></h3>
               <p>The original wrist-rocket slingshot. Complete kit with filler system &amp; 100 biodegradable balloons.</p>
-              <span class="product-price">$34.95</span>
-${shopAddForm('launcher', 'Water Balloon Launcher™', '34.95', 'assets/product-launcher.webp')}
+              <span class="product-price">$32.95</span>
+${shopAddForm('launcher', 'Water Balloon Launcher™', '32.95', 'assets/product-launcher.webp')}
             </div>
           </article>
           <article class="product-card">
@@ -414,8 +414,8 @@ ${shopAddForm('launcher', 'Water Balloon Launcher™', '34.95', 'assets/product-
               </div>
               <h3><a href="cannon.html">Water Balloon Cannon™</a></h3>
               <p>Heavy-duty 3-man handheld cannon. Launches 3″ balloons with serious force. Stay mobile, stay loaded.</p>
-              <span class="product-price">$39.95</span>
-${shopAddForm('cannon', 'Water Balloon Cannon™', '39.95', 'assets/product-cannon.webp')}
+              <span class="product-price">$38.95</span>
+${shopAddForm('cannon', 'Water Balloon Cannon™', '38.95', 'assets/product-cannon.webp')}
             </div>
           </article>
           <article class="product-card featured">
@@ -430,8 +430,8 @@ ${shopAddForm('cannon', 'Water Balloon Cannon™', '39.95', 'assets/product-cann
               </div>
               <h3><a href="beast.html">Beast™ Mega Slingshot™</a></h3>
               <p>Triple-barrel, mountable mega slingshot. Three friends, one synchronized volley. The ultimate team weapon.</p>
-              <span class="product-price">$44.95</span>
-${shopAddForm('beast', 'Beast™ Mega Slingshot™', '44.95', 'assets/product-beast-mega-launcher.webp')}
+              <span class="product-price">$43.95</span>
+${shopAddForm('beast', 'Beast™ Mega Slingshot™', '43.95', 'assets/product-beast-mega-launcher.webp')}
             </div>
           </article>
         </div>
@@ -484,9 +484,9 @@ ${shopAccessoryCard({
   'launcher.html': productPage({
     file: 'launcher.html',
     id: 'launcher',
-    priceNum: '34.95',
+    priceNum: '32.95',
     title: 'Water Balloon Launcher™ — Slingking®',
-    description: 'The original Slingking Water Balloon Launcher™. Complete kit with patented Fill Anywhere™ system. Up to 100 yards. $34.95.',
+    description: 'The original Slingking Water Balloon Launcher™. Complete kit with patented Fill Anywhere™ system. Up to 100 yards. $32.95.',
     label: 'The Original',
     heading: 'Water Balloon Launcher™',
     heroText: 'The wrist-rocket that started it all. Backyard battles, summer camps, and the perfect starter kit.',
@@ -497,7 +497,7 @@ ${shopAccessoryCard({
     range: 'Up to 100 Yards',
     name: 'Water Balloon Launcher™',
     intro: 'The original wrist-rocket slingshot that put Slingking on the map. Solo operation, serious range, and our patented Fill Anywhere™ system so you can load up at the park — no hose required.',
-    price: '$34.95',
+    price: '$32.95',
     orderSubject: 'Order Water Balloon Launcher',
     specs: [
       ['Range', 'Up to 100 yards'],
@@ -521,9 +521,9 @@ ${shopAccessoryCard({
   'cannon.html': productPage({
     file: 'cannon.html',
     id: 'cannon',
-    priceNum: '39.95',
+    priceNum: '38.95',
     title: 'Water Balloon Cannon™ — Slingking®',
-    description: 'Slingking Water Balloon Cannon™ — heavy-duty 3-man handheld launcher. Up to 200 yards. $39.95.',
+    description: 'Slingking Water Balloon Cannon™ — heavy-duty 3-man handheld launcher. Up to 200 yards. $38.95.',
     label: '3-Man Team',
     heading: 'Water Balloon Cannon™',
     heroText: 'Mobile firepower for block parties, Greek Week, and serious soak missions.',
@@ -534,7 +534,7 @@ ${shopAccessoryCard({
     range: 'Up to 200 Yards',
     name: 'Water Balloon Cannon™',
     intro: 'A heavy-duty handheld cannon built for three-person crews. Launches 3″ balloons with serious force while staying mobile — perfect for philanthropy events, field battles, and roaming assaults.',
-    price: '$39.95',
+    price: '$38.95',
     orderSubject: 'Order Water Balloon Cannon',
     specs: [
       ['Range', 'Up to 200 yards'],
@@ -558,9 +558,9 @@ ${shopAccessoryCard({
   'beast.html': productPage({
     file: 'beast.html',
     id: 'beast',
-    priceNum: '44.95',
+    priceNum: '43.95',
     title: 'Beast™ Mega Slingshot™ — Slingking®',
-    description: 'Slingking Beast™ Mega Slingshot™ — triple-barrel mountable mega launcher. Up to 300 yards. $44.95.',
+    description: 'Slingking Beast™ Mega Slingshot™ — triple-barrel mountable mega launcher. Up to 300 yards. $43.95.',
     label: 'Flagship',
     heading: 'Beast™ Mega Slingshot™',
     heroText: 'Triple-barrel, mountable mega slingshot. The ultimate team weapon for Greek life and large events.',
@@ -571,7 +571,7 @@ ${shopAccessoryCard({
     range: 'Up to 300 Yards',
     name: 'Beast™ Mega Slingshot™',
     intro: 'Our flagship triple-barrel mega slingshot mounts to decks, roofs, and poolside setups. Three friends, one synchronized volley, and up to 300 yards of soakage. Built for Greek Week, fundraisers, and all-out water wars.',
-    price: '$44.95',
+    price: '$43.95',
     orderSubject: 'Order Beast Mega Slingshot',
     specs: [
       ['Range', 'Up to 300 yards'],
