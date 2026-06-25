@@ -414,8 +414,8 @@ ${shopAddForm('launcher', 'Water Balloon Launcher™', '29.95', 'assets/product-
               </div>
               <h3><a href="cannon.html">Water Balloon Cannon™</a></h3>
               <p>Heavy-duty 3-man handheld cannon. Launches 3″ balloons with serious force. Stay mobile, stay loaded.</p>
-              <span class="product-price">$29.95</span>
-${shopAddForm('cannon', 'Water Balloon Cannon™', '29.95', 'assets/product-cannon.webp')}
+              <span class="product-price">$34.95</span>
+${shopAddForm('cannon', 'Water Balloon Cannon™', '34.95', 'assets/product-cannon.webp')}
             </div>
           </article>
           <article class="product-card featured">
@@ -521,9 +521,9 @@ ${shopAccessoryCard({
   'cannon.html': productPage({
     file: 'cannon.html',
     id: 'cannon',
-    priceNum: '29.95',
+    priceNum: '34.95',
     title: 'Water Balloon Cannon™ — Slingking®',
-    description: 'Slingking Water Balloon Cannon™ — heavy-duty 3-man handheld launcher. Up to 200 yards. $29.95.',
+    description: 'Slingking Water Balloon Cannon™ — heavy-duty 3-man handheld launcher. Up to 200 yards. $34.95.',
     label: '3-Man Team',
     heading: 'Water Balloon Cannon™',
     heroText: 'Mobile firepower for block parties, Greek Week, and serious soak missions.',
@@ -534,7 +534,7 @@ ${shopAccessoryCard({
     range: 'Up to 200 Yards',
     name: 'Water Balloon Cannon™',
     intro: 'A heavy-duty handheld cannon built for three-person crews. Launches 3″ balloons with serious force while staying mobile — perfect for philanthropy events, field battles, and roaming assaults.',
-    price: '$29.95',
+    price: '$34.95',
     orderSubject: 'Order Water Balloon Cannon',
     specs: [
       ['Range', 'Up to 200 yards'],
