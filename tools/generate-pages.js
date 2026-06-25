@@ -925,7 +925,7 @@ ${shopAccessoryCard({
           <li>Wear appropriate footwear on wet surfaces to prevent slips.</li>
           <li>Stop immediately if anyone is injured or equipment fails.</li>
         </ul>
-        <p>Questions? Contact <a href="mailto:info@slingking.com">info@slingking.com</a> or visit our <a href="contact.html">contact page</a>.</p>
+        <p>Questions? Visit our <a href="contact.html">contact page</a>.</p>
       </div>
     </section>`,
     { lightHero: true }
