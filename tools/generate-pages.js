@@ -793,20 +793,6 @@ ${shopAccessoryCard({
     </section>
 
     <section class="page-body">
-      <div class="container about-content-block">
-        <h2>Slingking® Hall of Fame</h2>
-        <p>Join the ranks of esteemed celebrities who have earned their place in the prestigious Slingking® Hall of Fame. From national television to sold-out stadiums, Slingking has been making a splash on the national stage for over 35 years.</p>
-        <div class="about-hof-tags">
-          <span>Downtown Julie Brown</span>
-          <span>Joan Rivers</span>
-          <span>Pat Sajak</span>
-          <span>David Letterman</span>
-        </div>
-        <p style="margin-top:1.25rem;">The list continues to grow — reflecting the widespread recognition and admiration for Slingking® and its exceptional products.</p>
-      </div>
-    </section>
-
-    <section class="page-body page-body--alt">
       <div class="container">
         <div class="about-section-header">
           <span class="section-label">Trusted by the Pros</span>
@@ -824,7 +810,7 @@ ${shopAccessoryCard({
       </div>
     </section>
 
-    <section class="page-body">
+    <section class="page-body page-body--alt">
       <div class="container about-content-block">
         <h2>A History of Soakage</h2>
         <p>Water balloon launchers have become an integral part of outdoor play — from backyard parties and summer camps to beach days and campus events. Slingking helped lead that revolution with launchers built for incredible accuracy and distance, turning ordinary afternoons into legendary water wars.</p>
@@ -837,7 +823,7 @@ ${shopAccessoryCard({
       </div>
     </section>
 
-    <section class="page-body page-body--alt">
+    <section class="page-body">
       <div class="container">
         <div class="about-company-card">
           <h2 class="display-md" style="margin-bottom:0.75rem;">4D Innovations</h2>
